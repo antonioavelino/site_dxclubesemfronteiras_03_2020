@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta id="viewport" name="viewport" content="width=device-width, user-scalable=no">
+        <META NAME="KEYWORDS" CONTENT="Dexismo, Radioescuta, Radioamadorismo, cursos, frequencias e 
+        endereços de emissoras nacionais e internaconais, programas de Dexismo DX" >
+		<title>DX Clube Sem Fronteiras</title>
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+        
+        <script type="text/javascript">
+            window.onload = function(){
+                document.querySelector(".menuMobile").addEventListener("click", function(){
+                    if(document.querySelector(".menu nav ul").style.display == 'flex')
+                    {document.querySelector(".menu nav ul").style.display = 'none';
+                    } else {
+                        document.querySelector(".menu nav ul").style.display = 'flex';
+                    }
+                });
+            };
+        </script>  
+        <script src='https://www.google.com/recaptcha/api.js?hl=pt-BR'></script>
+ 
+    </head>
+<body>
+<header>
+    <div class="container">
+        <div class="logo">
+        <a href="index.html">
+        <img src="imagens/dxclube_2018_03.png" width="100px" height="100px" /></a>
+        </div>
+        <div class="menu">
+            <nav>
+                <div class="menuMobile">
+                    <div class="mm_line"></div>
+                    <div class="mm_line"></div>
+                    <div class="mm_line"></div>
+                    menu
+                </div>
+                <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="dxcsf.html">O Clube</a></li>
+                <li><a href="programasdx.html">Programas DX</a></li>
+                <li><a href="frequencias.html">Frequências</a></li>
+                <li><a href="emissoras.html">Emissoras</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="assinatura.html">Assinatura</a></li>
+                <li><a href="contato.html">Contato</a></li>  
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header> 
+    <section id="geral">
+        <div class="container">
+            <section>
+                <div class="contato">
+                    <h1>Contato</h1>
+                    <div class="form_contato">    
+                    <form method="POST" action="enviarEmail.php">
+                                <label>
+                                    <strong>Nome:</strong> <br/>
+                                    <input type="text" name="nome" placeholder="Digite seu nome*" required />
+                                </label>  
+                                <label>
+                                    <strong>E-mail: </strong><br/>
+                                    <input type="email" name="email" placeholder="Digite seu e-mail*" required/> 
+                                </label>
+                                <label>
+                                    <strong>Assunto: </strong><br/>
+                                    <input type="text" name="assunto" placeholder="Digite o assunto*" required/> 
+                                </label>
+                                <label>
+                                    <strong>Mensagem: </strong><br/>
+                                    <textarea type="text" name="mensagem" placeholder="Digite sua mensagem*" required></textarea>
+                                </label>
+                            
+                                <button type="reset">Limpar</button>
+                                <button type="submit">Enviar</button> 
+                        </form>
+                    </div>
+                    
+                </div>         
+            </section>
+        </div>
+    </section>
+    <footer>
+        <div class="rodape">
+            DX Clube Sem Fronteiras | Caixa Postal 77, CEP - 55002-970 | Caruaru, Pernambuco - Brasil<br/>
+            &copy; Copyright  2013 - 2021
+        </div>
+     </footer>
+</body>
+</html>

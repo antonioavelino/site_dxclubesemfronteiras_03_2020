@@ -1,0 +1,597 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+header {
+	display: flex;
+	justify-content: center;
+	height: 120px;
+	width: 100%;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background-color: rgb(7, 144, 207);
+}
+.logo {
+	display: flex;
+	align-items: center;
+	padding-left: 50px;
+	padding-top: 5px;
+}
+.menu {
+	display: flex;
+	align-items: center;
+	padding-right: 10px;
+}
+nav ul, 
+nav li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+nav ul {
+	display: flex;
+}
+nav a {
+	display: block;
+	padding: 8px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+nav .active a,
+nav a:hover {
+	background-color: #f3bc07;
+	color: #fff;
+}
+#geral .container {
+	background-color: rgb(240, 240, 240);
+	padding-left: 20px;
+}
+#geral{
+    display: flex;
+	justify-content: center;
+}
+#geral section{
+	flex: 2;
+	margin-left: 10px;
+}
+#geral aside {
+    flex: 1;
+}
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.widget_title_text {
+    color: black;
+    font-size: 21px;
+	font-weight: bold;
+}
+.widget_title_barra {
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 30px;
+}
+article a {
+    text-decoration: none;
+}
+article .news_data {
+    display: flex;
+}
+article .news_posted_at {
+    background-color: #2b4c99;
+    color: #FFFFFF;
+	font-size: 11px;
+	font-weight: bold;
+    padding: 10px;
+    margin-right: 2px;
+    width: 100%;
+	height: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+}
+article .news_thumbnail {
+    margin-top: 5px;
+}
+article .news_thumbnail img {
+    width: 100%;
+    height: auto;
+}
+article .news_title {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: #000000;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+aside {
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.widget_titulo {
+    line-height: 30px;
+    font-size: 14px;
+    background-color: #CCC;
+    text-align: justify;
+	padding-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.widget_title_text {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.widget_conteudo1 {
+    display: flexbox;
+    border: 1px solid #999;
+    padding: 20px 60px;
+}
+.noticias_item {
+    display: flexbox;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.noticias_item a {
+    text-decoration: none;
+    color: #000;
+}
+.noticias_item1 {
+    display: flexbox;
+	font-size: 15px;
+	font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align:left;
+}
+.noticias_item1 a {
+    text-decoration: none;
+    color: #2b4c99;
+    font-weight: bold;
+}
+.noticias_item1 ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+.noticias_item1 a:hover {
+    background-color: #CCC;
+}
+.assinatura {
+    display: flexbox;
+    padding-right: 30px;
+    padding-top: 5px;
+}
+.boletim {
+    display: flexbox;
+    padding-right: 30px;
+    padding-top: 5px;
+    align-items: center;
+}
+.boletim img {
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.cod_sinpo {
+    display: flexbox;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.cursos {
+    display: flexbox;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.emissoras {
+    display: flexbox;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.encontro_nac_dx {
+    display: flexbox;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+section .encontro_radioamador {
+    display: flexbox;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.entrevista {
+    display: flexbox;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.escutas_semana {
+    display: flexbox;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.frequencias {
+    display: flexbox;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.encontro_dx_radio {
+    display: flexbox;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.frecuencia_wrmi {
+    display: flexbox;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+#pxdx1 {
+    display: flexbox;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.regulamento {
+    display: flexbox;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.resultado_escutas {
+    display: flexbox;
+    padding-right: 5px;
+    padding-top: 10px;
+    padding-left: 0;
+    margin-left: 0;
+}
+.pesquisa_dx {
+    display: flexbox;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.pesquisa_dx button {
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #36a9e1;
+}
+.onda_curta {
+    display: flexbox;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.agradece_contato {
+    display: flexbox;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.form_obrigado {
+    flex: 1;
+}
+.form_obrigado {
+    width: 100%;
+    height: 200px;
+    background-color: #35aded;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 150px;
+}
+.tabela_itu {
+    display: flexbox;
+    padding-right: 30px;
+    padding-top: 10px; 
+}
+.termo_dx {
+    display: flexbox;
+    padding-right: 30px;
+    padding-top: 10px; 
+}
+* h1 {
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 30px;
+    background-color: #CCC;
+}
+* h2 {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+* p {
+    font-family: sans-serif;
+    font-size: 12pt;
+    color: black;
+    margin: 10px, 20px 10px 20px;
+    text-align: justify;
+}
+.pagamentos {
+    display: flex;
+}
+.contato {
+    display: flexbox;
+    padding-right: 30px;
+    padding-top: 10px;
+}
+.form_cotato form {
+    display: flex;
+}
+.form_contato {
+    width: 100%;
+    height: 480px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #35aded;
+    border: 1px solid #ccc;
+    text-align: center;
+    padding-top: 30px;
+}
+.form_contato label {
+    display: block;
+    margin-bottom: 20px;
+}
+.form_contato input[type=text], textarea, select {
+    padding: 10px;
+    width: 300px;
+    font-size: 17px;
+    border: 1px solid #CCC;
+    outline: 0;
+    margin-top: 5px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+.form_contato input[type=email] {
+    padding: 10px;
+    width: 300px;
+    font-size: 17px;
+    border: 1px solid #CCC;
+    outline: 0;
+    margin-top: 5px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}
+.form_contato textarea {
+    height: 80px;
+    resize: none;   
+}
+.form_contato button {
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #CCC;
+    background-color: #EEE;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+}   
+.form_contato button:hover {
+    background-color: #DDD;
+}
+footer {
+	display: flex;
+	width: auto;
+}
+.rodape {
+    width: 100%;
+    height: 35px;
+    background-color: #000;
+    color: #FFF;
+    padding-top: 12px;
+    padding-bottom: 13px;
+    text-align: center;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.menuMobile {
+    display: none;
+    width: 40px;
+	height: 40px;
+    margin-top: 40px;
+	margin-bottom: 40px;
+	margin-right: 20px;
+}
+.menuMobile {
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: arial;
+    color:#fff;
+    text-transform: uppercase;
+}
+.mm_line {
+    height: 4px;
+    background-color: blue;
+}
+.g-recaptcha {
+    display: flex;
+}
+.g-recaptcha {
+    margin-left: auto;
+}
+
+
+@media (max-width: 800px){
+
+	.container {
+		flex-direction: column;
+	}
+	#geral .container {
+        padding: 0px;
+    }
+	aside {
+        padding-left: 15px;
+	}
+	aside .widget_conteudo1 {
+		padding-left: 7px;
+		padding-right: 7px;
+		padding-top: 10px;
+		padding-bottom: 25px;
+		width: 258px;
+        height: 375px;
+	}
+	aside img {
+		width: 256px;
+		height: 390px;
+    }
+    aside .widget {
+        display: flexbox;
+    }
+    aside .widget {
+        padding-left: 5px;
+    }
+	.logo {
+		padding-left: 100px;
+	}
+	header .container {
+		flex-direction: row;
+	}
+	nav ul {
+		flex-direction: column;
+		display: none;
+		position: absolute;
+		left: 0;
+		width: 100%;
+		background-color: #fff;
+	}
+	header {
+		height: auto;
+	}
+	.menuMobile {
+		display: flex;
+		flex-direction: column;
+        justify-content: space-around;
+    }
+    h1, h2 {
+        display: flex;
+    }
+    article .artigo img {
+        width: 180px;
+        height: 280px;
+    }
+    .boletim {
+        padding-right: 15px;
+        margin-left: 7px;
+    }
+    .boletim img {
+        width: 260px;
+        height: 340px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .cod_sinpo {
+        padding-right: 15px;
+        margin-left: 7px;
+    }
+    .assinatura {
+        padding-right: 15px;
+        margin-left: 7px;
+    }
+    .cursos {
+        padding-right: 15px;
+        margin-left: 7px;
+    }
+    .emissoras {
+        padding-right: 15px;
+    }
+    .encontro_nac_dx {
+        padding-right: 15px;
+        margin-left: 7px;
+    }
+    .encontro_radioamador {
+        padding-right: 15px;
+        margin-left: 7px;
+    }
+    .encontro_radioamador img {
+        width: 280px;
+        height: 180px;
+    }
+    .entrevista {
+        padding-right: 15px;
+        margin-left: 7px;
+    }
+    .escutas_semana {
+        padding-right: 15px;
+        margin-left: 7px;
+    }
+    .frequencias {
+        padding-right: 15px;
+        margin-left: 7px;
+    }
+    .encontro_dx_radio {
+        padding-right: 15px;
+        margin-left: 7px;
+    }
+    .frecuencia_wrmi {
+        padding-right: 15px;
+        margin-left: 7px;
+    }
+    #pxdx1 {
+        padding-right: 15px;
+        margin-left: 7px;
+    }
+    .regulamento {
+        padding-right: 15px;
+        margin-left: 7px;
+    }
+    .resultado_escutas {
+        padding-right: 15px;
+        margin-left: 7px;
+    }
+    .pesquisa_dx {
+        padding-right: 15px;
+        margin-left: 7px; 
+    }
+    .onda_curta {
+        padding-right: 15px;
+        margin-left: 7px;
+    }
+    .agradece_contato {
+        padding-right: 15px;
+        margin-left: 7px;
+    }
+    .tabela_itu {
+        padding-right: 15px;
+        margin-left: 7px;
+    }
+    .tabela_itu h1 {
+        text-align: center;
+    }
+    .termo_dx {
+        padding-right: 15px; 
+        margin-left: 7px;
+    }
+    .termo_dx h1 {
+       text-align: center;
+    }
+    .contato {
+        margin-left: 15px;
+    }
+    .form_contato input[type=text], textarea, select {
+        width: auto;
+        align-items: center;
+    }
+    .form_contato input[type=email] {
+        width: auto;
+    }
+	
+}
